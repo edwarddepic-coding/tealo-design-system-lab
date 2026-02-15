@@ -35,12 +35,17 @@ const radiusLines = [
   `  --tealo-radius-pill: ${tokens.radius.pill};`
 ];
 
+const shadowLines = (
+  Object.keys(tokens.shadow) as (keyof typeof tokens.shadow)[]
+).map((key) => `  --tealo-shadow-${key}: ${tokens.shadow[key]};`);
+
 const lines = [
   "/* AUTO-GENERATED. DO NOT EDIT. */",
   ":root {",
   ...linesForPalette("teal"),
   ...linesForPalette("neutral"),
   ...radiusLines,
+  ...shadowLines,
   "}",
 ];
 

@@ -11,7 +11,7 @@ export const tokens = {
       700: "#0E9384",
       800: "#107569",
       900: "#125D56",
-      950: "#134E48"
+      950: "#134E48",
     },
     neutral: {
       50: "#FCFCFD",
@@ -24,14 +24,26 @@ export const tokens = {
       700: "#4A5578",
       800: "#404968",
       900: "#30374F",
-      950: "#111322"
-    }
+      950: "#111322",
+    },
   },
   radius: {
     4: "4px",
     8: "8px",
     12: "12px",
     16: "16px",
-    pill: "9999px"
-  }
+    pill: "9999px",
+  },
+  shadow: {
+    "2xs": "0 1px 0 0 #0000000d",
+    xs: "0 1px 2px 0 #0000000d",
+    sm: "0 1px 2px -1px #0000001a, 0 1px 3px 0 #0000001a",
+    md: "0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a",
+    lg: "0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a",
+    xl: "0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a",
+    "2xl": "0 25px 50px 12px #00000040",
+    focusRing: "0 0 0 3px #cbd5e1",
+    focusRingSidebar: "0 0 0 3px #cbd5e1",
+    focusRingError: "0 0 0 3px #fca5a5",
+  },
 } as const;
