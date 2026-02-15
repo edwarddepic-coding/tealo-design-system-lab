@@ -1,0 +1,102 @@
+[
+  {
+    "styleName": "Heading 1",
+    "fontFamily": "Nunito",
+    "fontSize": "32",
+    "lineHeight": "38px",
+    "fontWeight": "700",
+    "letterSpacing": "0px",
+    "textCase": "NONE",
+    "textDecoration": "NONE"
+  },
+  {
+    "styleName": "Heading 2",
+    "fontFamily": "Nunito",
+    "fontSize": "24",
+    "lineHeight": "30px",
+    "fontWeight": "700",
+    "letterSpacing": "0px",
+    "textCase": "NONE",
+    "textDecoration": "NONE"
+  },
+  {
+    "styleName": "Heading 3",
+    "fontFamily": "Nunito",
+    "fontSize": "20",
+    "lineHeight": "26px",
+    "fontWeight": "600",
+    "letterSpacing": "0px",
+    "textCase": "NONE",
+    "textDecoration": "NONE"
+  },
+  {
+    "styleName": "Heading 4",
+    "fontFamily": "Nunito",
+    "fontSize": "18",
+    "lineHeight": "24px",
+    "fontWeight": "600",
+    "letterSpacing": "0px",
+    "textCase": "NONE",
+    "textDecoration": "NONE"
+  },
+  {
+    "styleName": "Body M",
+    "fontFamily": "Inter",
+    "fontSize": "16",
+    "lineHeight": "24px",
+    "fontWeight": "400",
+    "letterSpacing": "0px",
+    "textCase": "NONE",
+    "textDecoration": "NONE"
+  },
+  {
+    "styleName": "Body S",
+    "fontFamily": "Inter",
+    "fontSize": "14",
+    "lineHeight": "21px",
+    "fontWeight": "400",
+    "letterSpacing": "0px",
+    "textCase": "NONE",
+    "textDecoration": "NONE"
+  },
+  {
+    "styleName": "Body XS",
+    "fontFamily": "Inter",
+    "fontSize": "12",
+    "lineHeight": "16px",
+    "fontWeight": "400",
+    "letterSpacing": "0px",
+    "textCase": "NONE",
+    "textDecoration": "NONE"
+  },
+  {
+    "styleName": "UI Button",
+    "fontFamily": "Inter",
+    "fontSize": "14",
+    "lineHeight": "17px",
+    "fontWeight": "600",
+    "letterSpacing": "0px",
+    "textCase": "NONE",
+    "textDecoration": "NONE"
+  },
+  {
+    "styleName": "UI Label",
+    "fontFamily": "Inter",
+    "fontSize": "13",
+    "lineHeight": "17px",
+    "fontWeight": "500",
+    "letterSpacing": "0px",
+    "textCase": "NONE",
+    "textDecoration": "NONE"
+  },
+  {
+    "styleName": "UI Caption",
+    "fontFamily": "Inter",
+    "fontSize": "12",
+    "lineHeight": "17px",
+    "fontWeight": "400",
+    "letterSpacing": "0px",
+    "textCase": "NONE",
+    "textDecoration": "NONE"
+  }
+]
