@@ -35,9 +35,13 @@ const radiusLines = [
   `  --tealo-radius-pill: ${tokens.radius.pill};`
 ];
 
+function camelToKebab(s: string): string {
+  return s.replace(/([A-Z])/g, (m) => `-${m.toLowerCase()}`);
+}
+
 const shadowLines = (
   Object.keys(tokens.shadow) as (keyof typeof tokens.shadow)[]
-).map((key) => `  --tealo-shadow-${key}: ${tokens.shadow[key]};`);
+).map((key) => `  --tealo-shadow-${camelToKebab(key)}: ${tokens.shadow[key]};`);
 
 const lines = [
   "/* AUTO-GENERATED. DO NOT EDIT. */",
