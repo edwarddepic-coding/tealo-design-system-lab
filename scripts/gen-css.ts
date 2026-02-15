@@ -27,11 +27,20 @@ function linesForPalette(palette: Palette): string[] {
   );
 }
 
+const radiusLines = [
+  `  --tealo-radius-4: ${tokens.radius[4]};`,
+  `  --tealo-radius-8: ${tokens.radius[8]};`,
+  `  --tealo-radius-12: ${tokens.radius[12]};`,
+  `  --tealo-radius-16: ${tokens.radius[16]};`,
+  `  --tealo-radius-pill: ${tokens.radius.pill};`
+];
+
 const lines = [
   "/* AUTO-GENERATED. DO NOT EDIT. */",
   ":root {",
   ...linesForPalette("teal"),
   ...linesForPalette("neutral"),
+  ...radiusLines,
   "}",
 ];
 
