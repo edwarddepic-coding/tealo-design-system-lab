@@ -1,0 +1,81 @@
+@import "../../tokens.css";
+
+.h1 {
+  font-family: var(--tealo-font-heading), system-ui, sans-serif;
+  font-size: var(--tealo-text-h1-font-size);
+  font-weight: var(--tealo-text-h1-font-weight);
+  line-height: var(--tealo-text-h1-line-height);
+  letter-spacing: var(--tealo-text-h1-letter-spacing);
+}
+
+.h2 {
+  font-family: var(--tealo-font-heading), system-ui, sans-serif;
+  font-size: var(--tealo-text-h2-font-size);
+  font-weight: var(--tealo-text-h2-font-weight);
+  line-height: var(--tealo-text-h2-line-height);
+  letter-spacing: var(--tealo-text-h2-letter-spacing);
+}
+
+.h3 {
+  font-family: var(--tealo-font-heading), system-ui, sans-serif;
+  font-size: var(--tealo-text-h3-font-size);
+  font-weight: var(--tealo-text-h3-font-weight);
+  line-height: var(--tealo-text-h3-line-height);
+  letter-spacing: var(--tealo-text-h3-letter-spacing);
+}
+
+.h4 {
+  font-family: var(--tealo-font-heading), system-ui, sans-serif;
+  font-size: var(--tealo-text-h4-font-size);
+  font-weight: var(--tealo-text-h4-font-weight);
+  line-height: var(--tealo-text-h4-line-height);
+  letter-spacing: var(--tealo-text-h4-letter-spacing);
+}
+
+.bodyXs {
+  font-family: var(--tealo-text-body-xs-font-family);
+  font-size: var(--tealo-text-body-xs-font-size);
+  font-weight: var(--tealo-text-body-xs-font-weight);
+  line-height: var(--tealo-text-body-xs-line-height);
+  letter-spacing: var(--tealo-text-body-xs-letter-spacing);
+}
+
+.bodyS {
+  font-family: var(--tealo-text-body-s-font-family);
+  font-size: var(--tealo-text-body-s-font-size);
+  font-weight: var(--tealo-text-body-s-font-weight);
+  line-height: var(--tealo-text-body-s-line-height);
+  letter-spacing: var(--tealo-text-body-s-letter-spacing);
+}
+
+.bodyM {
+  font-family: var(--tealo-text-body-m-font-family);
+  font-size: var(--tealo-text-body-m-font-size);
+  font-weight: var(--tealo-text-body-m-font-weight);
+  line-height: var(--tealo-text-body-m-line-height);
+  letter-spacing: var(--tealo-text-body-m-letter-spacing);
+}
+
+.button {
+  font-family: var(--tealo-text-button-font-family);
+  font-size: var(--tealo-text-button-font-size);
+  font-weight: var(--tealo-text-button-font-weight);
+  line-height: var(--tealo-text-button-line-height);
+  letter-spacing: var(--tealo-text-button-letter-spacing);
+}
+
+.label {
+  font-family: var(--tealo-text-label-font-family);
+  font-size: var(--tealo-text-label-font-size);
+  font-weight: var(--tealo-text-label-font-weight);
+  line-height: var(--tealo-text-label-line-height);
+  letter-spacing: var(--tealo-text-label-letter-spacing);
+}
+
+.caption {
+  font-family: var(--tealo-text-caption-font-family);
+  font-size: var(--tealo-text-caption-font-size);
+  font-weight: var(--tealo-text-caption-font-weight);
+  line-height: var(--tealo-text-caption-line-height);
+  letter-spacing: var(--tealo-text-caption-letter-spacing);
+}
