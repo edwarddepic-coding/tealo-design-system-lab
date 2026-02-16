@@ -16,7 +16,7 @@ const variants = [
 export function TextPreview() {
   return (
     <div style={{ padding: 24, maxWidth: 720, margin: "0 auto" }}>
-      <Text variant="h1" style={{ marginBottom: 24 }}>
+      <Text variant="h1" style={{ marginBottom: 24 }} color="teal-700">
         Text preview
       </Text>
       <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>

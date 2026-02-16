@@ -1,1 +1,1 @@
-export { Text, type TextProps, type TextVariant } from "./Text";
+export { Text, type TextProps, type TextVariant, type TextColor } from "./Text";
