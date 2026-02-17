@@ -6,6 +6,7 @@ import TealoDialogLab from "./lab/TealoDialogLab";
 import TealoInputLab from "./lab/TealoInputLab";
 import TealoLabelLab from "./lab/TealoLabelLab";
 import TealoSelectLab from "./lab/TealoSelectLab";
+import TealoSwitchLab from "./lab/TealoSwitchLab";
 import TealoTextareaLab from "./lab/TealoTextareaLab";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <TealoInputLab />
       <TealoLabelLab />
       <TealoSelectLab />
+      <TealoSwitchLab />
       <TealoTextareaLab />
     </div>
   );
