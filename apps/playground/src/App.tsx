@@ -1,6 +1,8 @@
 import { TextPreview } from "./components/Text/Text.preview";
 import ButtonLab from "./lab/ButtonLab";
 import CheckboxLab from "./lab/CheckboxLab";
+import InputLab from "./lab/InputLab";
+import LabelLab from "./lab/LabelLab";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <TextPreview />
       <ButtonLab />
       <CheckboxLab />
+      <InputLab />
+      <LabelLab />
     </div>
   );
 }
