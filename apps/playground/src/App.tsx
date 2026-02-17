@@ -1,19 +1,21 @@
 import { TextPreview } from "./components/Text/Text.preview";
-import ButtonLab from "./lab/ButtonLab";
-import CheckboxLab from "./lab/CheckboxLab";
-import InputLab from "./lab/InputLab";
-import LabelLab from "./lab/LabelLab";
-import TextareaLab from "./lab/TextareaLab";
+import TealoButtonLab from "./lab/TealoButtonLab";
+import TealoCheckboxLab from "./lab/TealoCheckboxLab";
+import TealoInputLab from "./lab/TealoInputLab";
+import TealoLabelLab from "./lab/TealoLabelLab";
+import TealoSelectLab from "./lab/TealoSelectLab";
+import TealoTextareaLab from "./lab/TealoTextareaLab";
 
 function App() {
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 48 }}>
       <TextPreview />
-      <ButtonLab />
-      <CheckboxLab />
-      <InputLab />
-      <LabelLab />
-      <TextareaLab />
+      <TealoButtonLab />
+      <TealoCheckboxLab />
+      <TealoInputLab />
+      <TealoLabelLab />
+      <TealoSelectLab />
+      <TealoTextareaLab />
     </div>
   );
 }
