@@ -8,7 +8,7 @@ const sizes = ["xs", "s", "m", "l"] as const;
 export function ButtonPreview() {
   return (
     <div style={{ padding: 24, maxWidth: 1200, margin: "0 auto" }}>
-      <Text variant="h1" color="teal-700" style={{ marginBottom: 24 }}>
+      <Text variant="h1" style={{ marginBottom: 24 }}>
         Button preview
       </Text>
       <div
@@ -19,26 +19,27 @@ export function ButtonPreview() {
           alignItems: "start",
         }}
       >
-        <div style={{ fontWeight: 600 }}>Variant</div>
+        <Text variant="label">Variant</Text>
         {sizes.map((size) => (
-          <div
+          <Text
             key={size}
-            style={{ fontWeight: 600, textTransform: "uppercase" }}
+            variant="label"
+            style={{ textTransform: "uppercase" }}
           >
             {size}
-          </div>
+          </Text>
         ))}
         {variants.map((variant) => (
           <Fragment key={variant}>
-            <div
+            <Text
+              variant="bodyM"
               style={{
-                fontWeight: 500,
                 textTransform: "capitalize",
                 paddingTop: 8,
               }}
             >
               {variant}
-            </div>
+            </Text>
             {sizes.map((size) => (
               <div
                 key={`${variant}-${size}`}
