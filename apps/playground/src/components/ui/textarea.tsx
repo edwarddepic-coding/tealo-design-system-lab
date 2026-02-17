@@ -1,7 +1,7 @@
-import * as React from "react"
-import { cva, type VariantProps } from "class-variance-authority"
+import * as React from "react";
+import { cva, type VariantProps } from "class-variance-authority";
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
 
 const textareaVariants = cva(
   "flex w-full transition-colors outline-none resize-none",
@@ -35,11 +35,12 @@ const textareaVariants = cva(
     defaultVariants: {
       variant: "default",
     },
-  }
-)
+  },
+);
 
 export interface TextareaProps
-  extends React.TextareaHTMLAttributes<HTMLTextAreaElement>,
+  extends
+    React.TextareaHTMLAttributes<HTMLTextAreaElement>,
     VariantProps<typeof textareaVariants> {}
 
 const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
@@ -50,9 +51,9 @@ const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
         ref={ref}
         {...props}
       />
-    )
-  }
-)
-Textarea.displayName = "Textarea"
+    );
+  },
+);
+Textarea.displayName = "Textarea";
 
-export { Textarea, textareaVariants }
+export { Textarea };

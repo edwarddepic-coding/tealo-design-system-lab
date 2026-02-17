@@ -1,8 +1,8 @@
-import * as React from "react"
-import * as CheckboxPrimitive from "@radix-ui/react-checkbox"
-import { Check, Minus } from "lucide-react"
+import * as React from "react";
+import * as CheckboxPrimitive from "@radix-ui/react-checkbox";
+import { Check, Minus } from "lucide-react";
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
 
 const Checkbox = React.forwardRef<
   React.ElementRef<typeof CheckboxPrimitive.Root>,
@@ -23,7 +23,7 @@ const Checkbox = React.forwardRef<
       "aria-invalid:data-[state=checked]:bg-[var(--tealo-error-500)] aria-invalid:data-[state=checked]:border-[var(--tealo-error-500)]",
       "aria-invalid:data-[state=indeterminate]:bg-[var(--tealo-error-500)] aria-invalid:data-[state=indeterminate]:border-[var(--tealo-error-500)]",
       "aria-invalid:focus-visible:shadow-[var(--tealo-shadow-focus-ring-error)]",
-      className
+      className,
     )}
     {...props}
   >
@@ -32,13 +32,13 @@ const Checkbox = React.forwardRef<
     >
       <Check className="h-4 w-4 group-data-[state=indeterminate]:hidden" />
       <Minus
-        className="absolute inset-0 m-auto h-4 w-4 hidden group-data-[state=indeterminate]:block"
+        className="center-center inset-0 m-auto h-4 w-4 hidden group-data-[state=indeterminate]:block"
         strokeWidth={3}
         aria-hidden
       />
     </CheckboxPrimitive.Indicator>
   </CheckboxPrimitive.Root>
-))
-Checkbox.displayName = CheckboxPrimitive.Root.displayName
+));
+Checkbox.displayName = CheckboxPrimitive.Root.displayName;
 
-export { Checkbox }
+export { Checkbox };
