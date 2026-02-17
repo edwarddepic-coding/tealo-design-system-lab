@@ -54,11 +54,11 @@ const Checkbox = React.forwardRef<
         "data-[state=indeterminate]:bg-[var(--tealo-teal-500)] data-[state=indeterminate]:border-[var(--tealo-teal-500)] data-[state=indeterminate]:text-[var(--tealo-neutral-50)]",
         "data-[state=indeterminate]:focus-visible:shadow-[var(--tealo-shadow-focus-ring)]",
         // Error state
-        error && "border-[#ef4444]",
+        error && "border-[var(--tealo-error-500)]",
         error &&
-          "data-[state=checked]:bg-[#ef4444] data-[state=checked]:border-[#ef4444]",
+          "data-[state=checked]:bg-[var(--tealo-error-500)] data-[state=checked]:border-[var(--tealo-error-500)]",
         error &&
-          "data-[state=indeterminate]:bg-[#ef4444] data-[state=indeterminate]:border-[#ef4444]",
+          "data-[state=indeterminate]:bg-[var(--tealo-error-500)] data-[state=indeterminate]:border-[var(--tealo-error-500)]",
         error && "focus-visible:shadow-[var(--tealo-shadow-focus-ring-error)]",
         error &&
           "data-[state=checked]:focus-visible:shadow-[var(--tealo-shadow-focus-ring-error)]",

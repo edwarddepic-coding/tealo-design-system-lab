@@ -22,6 +22,17 @@
   --tealo-neutral-800: #404968;
   --tealo-neutral-900: #30374f;
   --tealo-neutral-950: #111322;
+  --tealo-error-50: #fef2f2;
+  --tealo-error-100: #fee2e2;
+  --tealo-error-200: #fecaca;
+  --tealo-error-300: #fca5a5;
+  --tealo-error-400: #f87171;
+  --tealo-error-500: #ef4444;
+  --tealo-error-600: #dc2626;
+  --tealo-error-700: #b91c1c;
+  --tealo-error-800: #991b1b;
+  --tealo-error-900: #7f1d1d;
+  --tealo-error-950: #450a0a;
   --tealo-radius-4: 4px;
   --tealo-radius-8: 8px;
   --tealo-radius-12: 12px;
