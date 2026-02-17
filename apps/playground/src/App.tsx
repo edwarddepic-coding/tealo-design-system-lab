@@ -3,6 +3,7 @@ import ButtonLab from "./lab/ButtonLab";
 import CheckboxLab from "./lab/CheckboxLab";
 import InputLab from "./lab/InputLab";
 import LabelLab from "./lab/LabelLab";
+import TextareaLab from "./lab/TextareaLab";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <CheckboxLab />
       <InputLab />
       <LabelLab />
+      <TextareaLab />
     </div>
   );
 }
