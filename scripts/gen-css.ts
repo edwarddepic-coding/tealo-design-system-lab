@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 
 const ORDER = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950] as const;
 type Shade = (typeof ORDER)[number];
-type Palette = "teal" | "neutral";
+type Palette = "teal" | "neutral" | "error";
 
 function camelToKebab(s: string): string {
   return s.replace(/([A-Z])/g, (m) => `-${m.toLowerCase()}`);
@@ -150,6 +150,7 @@ const lines = [
   ":root {",
   ...linesForPalette("teal"),
   ...linesForPalette("neutral"),
+  ...linesForPalette("error"),
   ...radiusLines,
   ...shadowLines,
   ...fontFamilyLines,
