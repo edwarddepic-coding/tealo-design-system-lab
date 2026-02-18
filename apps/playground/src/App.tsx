@@ -7,6 +7,7 @@ import TealoDialogLab from "./lab/TealoDialogLab";
 import TealoDrawerLab from "./lab/TealoDrawerLab";
 import TealoDropdownMenuLab from "./lab/TealoDropdownMenuLab";
 import TealoInputLab from "./lab/TealoInputLab";
+import TealoPopoverLab from "./lab/TealoPopoverLab";
 import TealoLabelLab from "./lab/TealoLabelLab";
 import TealoSelectLab from "./lab/TealoSelectLab";
 import TealoSeparatorLab from "./lab/TealoSeparatorLab";
@@ -15,6 +16,7 @@ import TealoSonnerLab from "./lab/TealoSonnerLab";
 import TealoSwitchLab from "./lab/TealoSwitchLab";
 import TealoTabsLab from "./lab/TealoTabsLab";
 import TealoTextareaLab from "./lab/TealoTextareaLab";
+import TealoTooltipLab from "./lab/TealoTooltipLab";
 
 function App() {
   useEffect(() => {
@@ -32,6 +34,7 @@ function App() {
       <TealoDropdownMenuLab />
       <TealoInputLab />
       <TealoLabelLab />
+      <TealoPopoverLab />
       <TealoSelectLab />
       <TealoSeparatorLab />
       <TealoSheetLab />
@@ -39,6 +42,7 @@ function App() {
       <TealoSwitchLab />
       <TealoTabsLab />
       <TealoTextareaLab />
+      <TealoTooltipLab />
     </div>
   );
 }
